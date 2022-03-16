@@ -136,6 +136,7 @@ jobs:
         repository: pattakornnoilooblao/jame007-tutorial-pipeline
         event-type: pattakornjame-tutorial-backend-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+  
 
 
 
